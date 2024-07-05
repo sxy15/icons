@@ -1,0 +1,54 @@
+{
+    "name": "@anfu/icon-vue",
+    "version": "1.0.8-alpha.0",
+    "description": "Vue Icons for IconSpace",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "typings": "lib/index.d.ts",
+    "keywords": [
+        "vue",
+        "icon",
+        "icon space",
+        "IconSpace",
+        "svg",
+        "system icons",
+        "component",
+        "components",
+        "design"
+    ],
+    "files": [
+        "es",
+        "lib",
+        "styles",
+        "README.md",
+        "icons.json",
+        "LICENSE",
+        "package.json"
+    ],
+    "homepage": "https://github.com/icon-space/IconSpace/packages/vue",
+    "bugs": {
+        "url": "https://github.com/icon-space/IconSpace/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icon-space/IconSpace"
+    },
+    "license": "Apache-2.0",
+    "engines": {
+        "node": ">= 8.0.0",
+        "npm": ">= 5.0.0"
+    },
+    "peerDependencies": {
+        "vue": "2.x"
+    },
+    "dependencies": {
+        "vue": "~2.7.14"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "sideEffects": [
+        "styles/**"
+    ]
+}
