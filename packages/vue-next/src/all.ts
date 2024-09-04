@@ -42,6 +42,6 @@ export const IconSpace: AllIcon = IconSpaceOptions as AllIcon
 
 export function install(Vue: App, prefix?: string): void {
     Object.values(IconMap).forEach(icon => {
-        Vue.component(prefix ? prefix + '-' + icon.name.slice(5) : icon.name, icon)
+        Vue.component(prefix ? prefix + '-' + icon.name!.slice(5) : icon.name!, icon)
     })
 }

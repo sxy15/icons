@@ -1,14 +1,12 @@
 {
     "name": "@anfu/icon-svg",
-    "description": "Pure Svg Icons for IconSpace",
-    "version": "1.0.8-alpha.0",
+    "description": "Pure Svg Icons",
+    "version": "0.0.0",
     "main": "lib/index.js",
     "module": "es/index.js",
     "typings": "lib/index.d.ts",
     "keywords": [
         "icon",
-        "icon space",
-        "IconSpace",
         "svg",
         "system icons",
         "component",
@@ -24,13 +22,13 @@
         "LICENSE",
         "package.json"
     ],
-    "homepage": "https://github.com/icon-space/IconSpace/packages/svg",
+    "homepage": "https://github.com/sxy15/icons/packages/svg",
     "bugs": {
-        "url": "https://github.com/icon-space/IconSpace/issues"
+        "url": "https://github.com/sxy15/icons/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/icon-space/IconSpace"
+        "url": "https://github.com/sxy15/icons"
     },
     "license": "Apache-2.0",
     "engines": {
